@@ -1,0 +1,106 @@
+:root {
+    color: #101010;
+    font-size: 1px;
+  }
+  
+  @media(min-width: 1921px) {
+    :root {
+        font-size:1.3px
+    }
+  }
+  
+  @media(min-width: 1024px)and (max-width:1365px) {
+    :root {
+        font-size:.8px
+    }
+  }
+  
+  @media(min-width: 1366px)and (max-width:1439px) {
+    :root {
+        font-size:.85px
+    }
+  }
+  
+  @media(min-width: 2561px) {
+    :root {
+        font-size:2px
+    }
+  }
+  
+  @media(min-width: 1440px)and (max-width:1599px) {
+    :root {
+        font-size:.9px
+    }
+  }
+
+.Main-container {
+  padding-top: 70rem;
+  padding-left: 40rem;
+  padding-right: 20rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Left {
+  width: 50%;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 70rem;
+}
+
+.Main {
+    height: 100vh;
+  }
+
+.Main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20rem;
+    padding-left: 20rem;
+    padding-right: 40rem;
+}
+
+.link-first {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #101010;
+    margin-right: 30rem;
+}
+
+.link-first:hover {
+    color: #7f7f7f;
+}
+
+.link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #101010;
+    margin-right: 30rem;
+}
+
+.link:hover{
+    color:#7f7f7f
+}
+
+.link-last{
+    font-family: Arial, sans-serif;
+    font-size: 15rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #101010;;
+}
+
+.link-last:hover{
+    color:#7f7f7f;
+}
+
